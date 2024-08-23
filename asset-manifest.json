@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/keshav/static/css/main.3902280a.css",
-    "main.js": "/keshav/static/js/main.93d3e79a.js",
+    "main.css": "/keshav/static/css/main.3749f288.css",
+    "main.js": "/keshav/static/js/main.49089cc6.js",
     "static/media/WhatsApp Image 2024-08-12 at 22.02.11_5edd2aff.jpg": "/keshav/static/media/WhatsApp Image 2024-08-12 at 22.02.11_5edd2aff.32de5b82f02e573388e0.jpg",
     "static/media/sih.png": "/keshav/static/media/sih.28977e22428d1e5d9a2e.png",
     "static/media/textute1.jpg": "/keshav/static/media/textute1.e4e7be9384391e003a96.jpg",
@@ -69,11 +69,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/keshav/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/keshav/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/keshav/index.html",
-    "main.3902280a.css.map": "/keshav/static/css/main.3902280a.css.map",
-    "main.93d3e79a.js.map": "/keshav/static/js/main.93d3e79a.js.map"
+    "main.3749f288.css.map": "/keshav/static/css/main.3749f288.css.map",
+    "main.49089cc6.js.map": "/keshav/static/js/main.49089cc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3902280a.css",
-    "static/js/main.93d3e79a.js"
+    "static/css/main.3749f288.css",
+    "static/js/main.49089cc6.js"
   ]
 }
