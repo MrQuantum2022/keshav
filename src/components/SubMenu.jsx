@@ -61,7 +61,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
   return (
     <>
       <div
-        className={`absolute lg:items-center lg:justify-center duration-300 px-5 py-2 my-0   z-20 top-0 ${showsub?"left-0 lg:scale-y-100 ":"-left-full lg:scale-y-0 lg:origin-top lg:left-0 "} flex flex-col h-[105%] lg:h-42 lg:top-[95%] w-full text-white bg-red-600 lg:bg-transparent  `}
+        className={`absolute lg:items-center lg:justify-center duration-300 px-5 py-2 my-0   z-20 top-0 ${showsub?"left-0 lg:scale-y-100 ":"-left-full lg:scale-y-0 lg:origin-top lg:left-0 "} flex flex-col h-[105%] lg:h-42 lg:top-[95%] w-full text-white bg-amber-600  `}
       >
         <div className=" text-2xl roboto-slab-b text-center   ">
           {itemName}
@@ -71,7 +71,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {College.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-600 bg-amber-600 tobg-amber-600  ${
                 itemName === "The College" ? "visible" : "hidden"
               } `}
             >
@@ -81,7 +81,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {Administration.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "Administration" ? "visible" : "hidden"
               } `}
             >
@@ -91,7 +91,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {Academics.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "Academics" ? "visible" : "hidden"
               } `}
             >
@@ -101,7 +101,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {Admissions.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "Admissions" ? "visible" : "hidden"
               } `}
             >
@@ -111,7 +111,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {GirlsHostel.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "Girls Hostel" ? "visible" : "hidden"
               } `}
             >
@@ -121,7 +121,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {StudentsCorner.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "Students Corner" ? "visible" : "hidden"
               } `}
             >
@@ -131,7 +131,7 @@ export default function SubMenu({ showsub, itemName, setshow }) {
           {IQAC.map((items) => (
             <div
               key={items}
-              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-red-600 to bg-red-600 lg:bg-transparent  ${
+              className={` duration-150 roboto py-2 my-1 lg:py-0 lg:my-0 border-b-2 hover:bg-gradient-to- from-amber-6bg-amber-600 tobg-amber-600  ${
                 itemName === "IQAC" ? "visible" : "hidden"
               } `}
             >
