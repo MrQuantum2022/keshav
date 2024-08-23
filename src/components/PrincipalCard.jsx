@@ -4,7 +4,7 @@ import "./fonts.css";
 
 export default function PrincipalCard() {
   return (
-    <div className="bg-slate-100 shadow-sm my-3 lg:w-1/2 shadow-slate-700 scale-90  h-[500px] overflow-x-hidden">
+    <div className="bg-slate-100 shadow-sm my-3  shadow-slate-700 scale-90  h-[500px] overflow-x-hidden">
       <div className=" h-1/3 flex justify-center items-end bg-teal-600 gap-5 ">
         <img
           className="h-80 w-80 absolute -mb-24 z-0 opacity-30 -right-24 "

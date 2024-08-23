@@ -2,6 +2,7 @@ import Alerts from "./components/Alerts";
 import Banner from "./components/Banner";
 import Bubble from "./components/Bubble";
 import Navbar from "./components/Navbar";
+import Notices from "./components/Notices";
 import PrincipalCard from "./components/PrincipalCard";
 import QuickLinks from "./components/QuickLinks";
 import Title from "./components/Title";
@@ -20,7 +21,7 @@ function App() {
     <QuickLinks/>
     <Bubble name={"UGAdmission"}/>
     <Ugadmission/>
-    <Bubble name ={"Notices"}/>
+    <Notices/>
     </div>
     </>
   );
